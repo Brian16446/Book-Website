@@ -1,0 +1,188 @@
+body{
+    background-image: url(IMGS/book1.jpg);
+    background-color: #231100;
+    height: 85vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1{
+    text-align: center;
+    font-size: 62px;
+    color: rgba(4, 13, 17, 0.85);
+    text-shadow: 
+        -1px -1px 0 #fff,
+         1px -1px 0 #fff,
+        -1px  1px 0 #fff,
+         1px  1px 0 #fff;
+}
+
+button{
+    background-color: rgba(4, 13, 17, 0.85);
+    color: #fff;
+    width: 50px;
+    height: 41px;
+    display: inline-block;
+    position: relative;
+
+}
+#submit{
+    width: 75px;
+}
+
+form{
+    display: inline;
+}
+
+p{
+    text-align: center;
+}
+
+.outerAddBar{
+    height: 50px;
+    line-height: 50px;    
+    width: 750px;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+}
+
+#addBook{
+    display: block;
+    border: 1px solid white;
+    text-align: center;
+    background-color: rgba(4, 13, 17, 0.85);
+    cursor: pointer;
+}
+
+
+.addBar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 50px;
+    line-height: 50px;    
+    margin: 0 auto;
+    display: none;
+    text-align: center;
+}
+
+.addBar input{
+    padding: 4px;
+    line-height: 30px;
+    height: 30px;
+    display: inline-block;
+    margin: 0x;
+    border: 2px solid #fff;
+    background-color: rgba(4, 13, 17, 0.85);
+    color: #fff;
+    outline-color: #fff;
+}
+
+.addBar input:focus{
+    border: 2px solid #d88406;
+    z-index: 2;
+}
+
+.addBar input[type=text]{
+    width: 170px;
+}
+.addBar input[type=date]{
+    width: 150px;
+}
+
+.addBar select{
+    width: 75px;
+    display: inline-block;
+    height: 40px;
+    padding: 5px;
+    border: 2px solid #fff;
+}
+
+
+
+.addBar input[type=submit]{
+    height: 42px;  
+    width: 75px;
+    cursor: pointer;
+}
+
+#search{
+    width: 750px;
+    margin: 0 auto;
+    border: 1px solid #fff;
+    background-color: rgba(4, 13, 17, 0.85);
+
+    text-align: center;
+}
+
+#search p{
+    display: inline-block;
+}
+
+#search select, #search button{
+    display: inline-block;
+}
+
+#search input{
+    padding: 5px;
+    height: 30px;
+    width: 300px;
+    display: inline-block;
+    border: 2px solid #fff;
+    background-color: rgba(4, 13, 17, 0.85);
+    color: #fff;
+    outline-color: #fff;
+    margin-bottom: 5px;
+}
+
+#searchOptions{
+    display: none;
+}
+
+button{
+    cursor: pointer;
+}
+
+select{
+    width: 300px;
+    display: block;
+    height: 30px;
+    text-align-last: center;
+    margin: 0 auto;
+    border: 2px solid #fff;
+    background-color: rgba(4, 13, 17, 0.85);
+    color: #fff;
+    outline-color: #fff;
+}
+
+#content{
+    width: 75%;
+    overflow-x: auto;
+    margin: 0 auto;
+}
+
+table{
+    background-color: rgba(4, 13, 17, 0.85);
+    width: 100%;
+    table-layout: fixed;
+    border: 1px solid #fff;
+    border-radius: 3px;
+}
+
+table td{
+    text-align: center;
+}
+
+table th, td{
+    border-bottom: 1px solid #ddd;
+}
+
+#years{
+    width: 150px;
+    margin-right: 50px;
+    margin-left: 5px;
+}

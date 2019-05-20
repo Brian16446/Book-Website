@@ -1,0 +1,25 @@
+-   Will have to use PHP to read from a file. Could use JSON?
+
+-   Add in an author column
+-   Make the input boxes rounded
+-   Have a check box that says read, when ticked the date box becomes active.
+
+
+
+-   Can't seem to figure out how to center options in a select tag. Quick google looks like it might not be possible w/o jquery.
+-   I'm not sure of best practices. Might want to change the br tags into margin-top
+-   My submit button is clunky. The height is set manually. Might not look so good.
+
+
+-   Might remove the read and to-read button and just have an option in the drop down.
+    -   But this might be awkward adding books to the to-read section.
+
+-   I want to change the select tag to a css dropdown so I can style it better.
+
+-   Might be better to use a database to do this
+    - Will have to hook this up to a database where submit adds a new record and the drop down pulls data from    the database.
+    - Won't be able to finish this until probably summer now.
+
+-   Can do the styling for now.
+
+-   Will be pretty tricky to add the book and keep them in date order.
